@@ -13,8 +13,7 @@ import org.junit.runner.RunWith;
         //tags="@employee"  //sadece employee icerenleri gosterir
         //tags="@employee and @admin"   //or da diyebiliriz. o zaman hepsini gosterir
         //tags="@Regression and not @student"
-        tags="@Regression"
-
+        tags="@wip"
 )
 public class CukesRunner {
 
