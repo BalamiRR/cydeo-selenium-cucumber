@@ -14,5 +14,5 @@ public class GoogleSearchPage {
 
     //We can start locating web elements using @FindBy annotation
     @FindBy(name="q")
-    public WebElement searchBox;
+    public WebElement searchBox; 
 }
