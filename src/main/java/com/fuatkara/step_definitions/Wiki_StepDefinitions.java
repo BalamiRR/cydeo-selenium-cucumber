@@ -27,7 +27,7 @@ public class Wiki_StepDefinitions {
     }
 
     @Then("User sees {string} is in the wiki title")
-    public void user_sees_steve_jobs_is_in_the_wiki_title(String string) {
+    public void user_sees_is_in_the_wiki_title(String string) {
         //verify actual title contains string (coming from feature file)
         Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
