@@ -64,4 +64,8 @@ public class BrowserUtils {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.invisibilityOf(webElement));
     }
+
+    public static void verifyURLContains(String expectedInTitle){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInTitle));
+    }
 }
