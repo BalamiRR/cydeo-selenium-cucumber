@@ -6,18 +6,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class WikiSearchPage {
-    //3:34:00
+
     public WikiSearchPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
-    @FindBy(id = "search-input")
+    @FindBy(id = "searchInput")
     public WebElement searchBox;
 
-    @FindBy(xpath = "//button[@class='pure-button pure-button-primary-progressive']")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement searchButton;
 
     @FindBy(id = "firstHeading")
     public WebElement mainHeader;
+
 
 }
