@@ -4,8 +4,11 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class BrowserUtils {
@@ -13,7 +16,8 @@ public class BrowserUtils {
 
 //    public WebDriver driver;
 
-    /* This method will accept int (in seconds) and execute Thread.sleep
+    /**
+     *  This method will accept int (in seconds) and execute Thread.sleep
     for given duration
     * */
     public static void sleeping(int second){
@@ -25,7 +29,8 @@ public class BrowserUtils {
         }
     }
 
-    /*This method accepts 3 arguments
+    /**
+     * This method accepts 3 arguments
     arg1: Webdriver
     aRg2: expectedUrl : for verify if the url contains givern Strgin
           - if condition matches, will break loop
@@ -50,22 +55,43 @@ public class BrowserUtils {
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
 
-    /* This method accepts a String "expectedTitle" and Asserts if it is true
+    /** This method accepts a String "expectedTitle" and Asserts if it is true
      * */
     public static void verifyTitle(WebDriver driver, String expectedTitle){
         Assert.assertEquals(driver.getTitle(), expectedTitle);
     }
 
-    /*
-        Creating a utility method for ExplicitWait, so we don't have to repeat the lines
-         */
+    /**
+      Creating a utility method for ExplicitWait, so we don't have to repeat the lines
+     */
     public static void waitForInvisibilityOf(WebElement webElement){
         //Driver.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.invisibilityOf(webElement));
     }
 
-    public static void verifyURLContains(String expectedInTitle){
-        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInTitle));
+    /**
+     *This method will accept a String as expected value and verify actual URL CONTAINS the value
+     *@param expectedInURL
+    */
+    public static void verifyURLContains(String expectedInURL){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));
     }
+
+    public static List<String> dropdownOptionsAsString(WebElement dropdownElement){
+        Select select = new Select(dropdownElement);
+
+        //List of all Actuall month <options> as a web element
+        List<WebElement> actualOptionsAsWebElement = select.getOptions();
+
+        //List of all Actual month <options> as a string
+        List<String> actualOptionsAsString = new ArrayList<>();
+
+        for(WebElement each: actualOptionsAsWebElement){
+            actualOptionsAsString.add(each.getText());
+        }
+        
+        return actualOptionsAsString;
+    }
+
 }
