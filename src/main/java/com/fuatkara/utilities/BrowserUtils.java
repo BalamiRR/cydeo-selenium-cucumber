@@ -94,4 +94,17 @@ public class BrowserUtils {
         return actualOptionsAsString;
     }
 
+    public static void clickRadioButton(List<WebElement> radioButtons, String attributeValue){
+        //WebElement selectCreditCard = Driver.getDriver().findElement(By.xpath("//input[@value='American Express']"));
+        //selectCreditCard.click();
+
+        for(WebElement each : radioButtons){
+            if(each.getAttribute("value").equalsIgnoreCase(attributeValue)){
+                each.click();
+            }
+        }
+
+
+    }
+
 }
