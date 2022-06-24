@@ -79,6 +79,7 @@ public class BrowserUtils {
     }
 
     public static List<String> dropdownOptionsAsString(WebElement dropdownElement){
+
         Select select = new Select(dropdownElement);
 
         //List of all Actuall month <options> as a web element
