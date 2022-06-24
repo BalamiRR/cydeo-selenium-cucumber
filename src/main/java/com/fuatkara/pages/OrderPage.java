@@ -43,7 +43,7 @@ public class OrderPage extends BasePage {
     @FindBy(name = "cardExp")
     public WebElement cardExpInput;
 
-    @FindBy(xpath = "//button[.='Process Order']")
+    @FindBy(css = "button[type='submit']")
     public WebElement orderButton;
 
 }
