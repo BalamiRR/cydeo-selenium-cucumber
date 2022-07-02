@@ -17,7 +17,6 @@ Feature: Web table user order feature
     Then user should see "Sherlock Holmes" in first row of the web table
 
     #outline and template are same
-  @wip
   Scenario Template: User should be able to place order and order seen in web table
     Given user is already logged in and on order page
     When user selects product type "<productType>"
@@ -51,12 +50,3 @@ Feature: Web table user order feature
       | MoneyCog    | 5        | Galileo               | London st | London | England | 50505   | Visa     | 1111222233334444 | 12/24   | Galileo               |
       | MoneyCog    | 6        | Isaac Newton          | London st | London | England | 50505   | Visa     | 1111222233334444 | 12/24   | Isaac Newton          |
       | MoneyCog    | 6        | Arnold Schwarzenegger | London st | London | England | 50505   | Visa     | 1111222233334444 | 12/24   | Arnold Schwarzenegger |
-
-
-
-
-
-
-
-
-
