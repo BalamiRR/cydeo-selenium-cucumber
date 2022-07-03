@@ -7,11 +7,11 @@
 <p align="left"> 
 
 <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="60" height="60"/> 
 </a> 
 
 <a href="https://www.selenium.dev" target="_blank" rel="noreferrer">
-  <img src="https://selenium.dev/images/selenium_logo_square_green.png" alt="selenium" width="40" height="40"/> 
+  <img src="https://selenium.dev/images/selenium_logo_square_green.png" alt="selenium" width="60" height="60"/> 
 </a>    
 
 <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> 
