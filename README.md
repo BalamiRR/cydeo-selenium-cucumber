@@ -19,6 +19,6 @@
 </a>
 
 <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEOYG6Ap6vFoqv5bNXkDvnCa1yAqbDr_f_YQhXa97QwYXvNqWIvnCzpFJJz1ZwcLrwbM&usqp=CAU" rel="noreferrer">
-  <img src="https://avatars.githubusercontent.com/u/874086?s=280&v=4" alt="selenium" width="60" height="60"/> 
+  <img src="https://user-images.githubusercontent.com/33158051/103466459-7524de80-4d13-11eb-96ba-f13e5409a18a.png" width="60" height="60"/> 
 </a> 
 </p>
