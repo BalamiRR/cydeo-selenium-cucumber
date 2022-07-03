@@ -18,7 +18,7 @@
   <img src="https://lisacrispin.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-17-at-12.13.33-PM.png" alt="oracle" width="40" height="40"/> 
 </a>
 
-<a href="https://avatars.githubusercontent.com/u/874086?s=280&v=4" rel="noreferrer">
+<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEOYG6Ap6vFoqv5bNXkDvnCa1yAqbDr_f_YQhXa97QwYXvNqWIvnCzpFJJz1ZwcLrwbM&usqp=CAU" rel="noreferrer">
   <img src="https://selenium.dev/images/selenium_logo_square_green.png" alt="selenium" width="40" height="40"/> 
 </a> 
 </p>
