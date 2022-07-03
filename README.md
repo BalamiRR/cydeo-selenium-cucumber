@@ -19,6 +19,6 @@
 </a>
 
 <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEOYG6Ap6vFoqv5bNXkDvnCa1yAqbDr_f_YQhXa97QwYXvNqWIvnCzpFJJz1ZwcLrwbM&usqp=CAU" rel="noreferrer">
-  <img src="https://www.codeaffine.com/wp-content/uploads/2016/02/junit-lambda.png" width="100" height="60"/> 
+  <img src="https://www.codeaffine.com/wp-content/uploads/2016/02/junit-lambda.png" width="115" height="60"/> 
 </a> 
 </p>
