@@ -19,6 +19,6 @@
 </a>
 
 <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEOYG6Ap6vFoqv5bNXkDvnCa1yAqbDr_f_YQhXa97QwYXvNqWIvnCzpFJJz1ZwcLrwbM&usqp=CAU" rel="noreferrer">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEOYG6Ap6vFoqv5bNXkDvnCa1yAqbDr_f_YQhXa97QwYXvNqWIvnCzpFJJz1ZwcLrwbM&usqp=CAU" alt="selenium" width="60" height="60"/> 
+  <img src="https://miro.medium.com/max/600/1*wGotWpNM2v3mjVtwrG_NeQ.png" alt="selenium" width="60" height="60"/> 
 </a> 
 </p>
