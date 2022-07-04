@@ -50,7 +50,7 @@ it up in your local workspace.
 
 ### Develop automation scripts using BDD approach - Cucumber-Java
 
-There are already many predefined StepDefinitions which is packaged under `/steps/Commonsteps.java` will help you speed
+There are already many predefined StepDefinitions which is packaged under `/steps/Order_StepDefinitions.java` will help you speed
 up your automation development that support both your favorite workaday helpers methods.
 
 Tests are written in the Cucumber framework using the Gherkin Syntax.
