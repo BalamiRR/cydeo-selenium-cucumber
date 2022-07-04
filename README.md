@@ -40,11 +40,11 @@ also generate `error shots` for your failed test cases as well.
 
 Git:
 
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
+    git clone https://github.com/BalamiRR/cydeo-selenium-cucumber.git
  
 Manually :
 
-Fork / Clone repository from [here](https://github.com/BalamiRR/cydeo-selenium-cucumber) or download zip and set
+Fork / Clone repository from [here](https://github.com/BalamiRR/cydeo-selenium-cucumber/archive/main.zip) or download zip and set
 it up in your local workspace.
 
 
