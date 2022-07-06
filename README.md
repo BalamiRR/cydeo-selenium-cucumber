@@ -48,6 +48,41 @@ Fork / Clone repository from [here](https://github.com/BalamiRR/cydeo-selenium-c
 it up in your local workspace.
 
 
+
+### Using canned test in the project:
+
+The CukesRunner runner file should contain the path of the feature file and step definition file that we want to execute
+Code Implementation of test runner file below:
+
+```
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        plugin = {
+                //"pretty",
+                "html:target/cucumber-reports.html",
+                "rerun:target/rerun.txt",
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber "
+        },
+        features = "src/main/resources/features",
+        glue = "com/fuatkara/step_definitions",
+        dryRun = false, // if we dont want to open our browser, so write true
+        tags="@smoke",
+        publish = true
+        //tags="@employee"  //sadece employee icerenleri gosterir
+        //tags="@employee and @admin"   //or da diyebiliriz. o zaman hepsini gosterir
+        //tags="@Regression and not @student"
+)
+public class CukesRunner {
+
+
+}
+
+```
+
 ### Develop automation scripts using BDD approach - Cucumber-Java
 
 There are already many predefined StepDefinitions which is packaged under `/steps/Order_StepDefinitions.java` will help you speed
@@ -103,3 +138,5 @@ To generate HTML report use  `mvn test -Dcucumber.options="–plugin html:target
 
 To generate a Txt report Use `mvn test -Dcucumber.options="–plugin rerun:target/rerun.txt"`
 
+
+### THE END
