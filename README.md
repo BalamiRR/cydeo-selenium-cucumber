@@ -23,7 +23,7 @@
 
 This repository contains a collection of sample `cydeo-selenium-cucumber` projects and libraries that demonstrate how to
 use the tool and develop automation script using the Cucumber BDD framework with Java as programming language.
-It generate Allure, HTML and JSON reporters as well. It also generate `screen shots` for your tests if you enable it and
+It generate Allure, HTML and Txt reporters as well. It also generate `screen shots` for your tests if you enable it and
 also generate `error shots` for your failed test cases as well.
 
 ### Installation (pre-requisites)
@@ -99,7 +99,7 @@ Here is one of the scenarios:
 
 To generate HTML report use  `mvn test -Dcucumber.options="–plugin html:target/cucumber-reports.html"`
 
-##### Rerun Report:
+##### Txt Report:
 
-To generate a JSON report Use `mvn test -Dcucumber.options="–plugin rerun:target/rerun.txt"`
+To generate a Txt report Use `mvn test -Dcucumber.options="–plugin rerun:target/rerun.txt"`
 
