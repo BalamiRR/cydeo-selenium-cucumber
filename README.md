@@ -51,7 +51,7 @@ it up in your local workspace.
 
 ### Using canned test in the project:
 
-The CukesRunner runner file should contain the path of the feature file and step definition file that we want to execute
+The CukesRunner runner file should contain the path of the feature file and step definition file that we want to execute. 
 Code Implementation of test runner file below:
 
 ```
@@ -69,18 +69,14 @@ import org.junit.runner.RunWith;
         },
         features = "src/main/resources/features",
         glue = "com/fuatkara/step_definitions",
-        dryRun = false, // if we dont want to open our browser, so write true
+        dryRun = false, 
         tags="@smoke",
         publish = true
-        //tags="@employee"  //sadece employee icerenleri gosterir
-        //tags="@employee and @admin"   //or da diyebiliriz. o zaman hepsini gosterir
-        //tags="@Regression and not @student"
 )
+
 public class CukesRunner {
 
-
 }
-
 ```
 
 ### Develop automation scripts using BDD approach - Cucumber-Java
