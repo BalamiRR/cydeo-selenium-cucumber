@@ -23,7 +23,7 @@
 
 This repository contains a collection of sample `cydeo-selenium-cucumber` projects and libraries that demonstrate how to
 use the tool and develop automation script using the Cucumber BDD framework with Java as programming language.
-It generate Allure, HTML and Txt reporters as well. It also generate `screen shots` for your tests if you enable it and
+It generate JSON, HTML and Txt reporters as well. It also generate `screen shots` for your tests if you enable it and
 also generate `error shots` for your failed test cases as well.
 
 ### Installation (pre-requisites)
